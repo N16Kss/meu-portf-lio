@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=swap');
+
+body{
+    
+    margin: 0;
+    padding: 0;
+    
+
+   background: linear-gradient(
+    135deg,
+    #020024 0%,
+    #08083a 20%,
+    #111153 40%,
+    #17236b 60%,
+    #155b82 80%,
+    #00a9d4 100%
+);
+    
+}
+nav{
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 25px; 
+    width: 100%;
+    background-color: rgb(15, 15, 55);
+}
+
+.item-navegacao {
+    padding: 15px 30px;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(15, 15, 55);
+    cursor: pointer;
+    color: white;
+    font-family: Science Gothic, sans-serif;
+}
+
