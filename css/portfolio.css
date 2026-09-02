@@ -42,3 +42,165 @@ nav{
     font-family: Science Gothic, sans-serif;
 }
 
+main {
+    min-height: calc(100vh - 65px);
+}
+
+.apresentacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    min-height: calc(100vh - 65px);
+}
+
+.texto {
+    width: 50%;
+    color: white;
+    font-family: "Science Gothic", sans-serif;
+}
+
+.texto h1 {
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+.texto p {
+    font-size: 22px;
+}
+
+.circulo {
+    width: 350px;
+    height: 350px;
+
+    border-radius: 50%;
+
+    background: rgba(0, 212, 255, 0.2);
+    border: 3px solid rgba(0, 212, 255, 0.8);
+
+    box-shadow: 0 0 40px rgba(0, 212, 255, 0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.pagina {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    padding-top: 100px;
+
+    color: white;
+    font-family: "Science Gothic", sans-serif;
+}
+
+.pagina h1 {
+    font-size: 50px;
+}
+
+.pagina p {
+    font-size: 20px;
+}
+
+.projetos {
+    display: flex;
+    gap: 30px;
+}
+
+.projeto {
+    padding: 25px;
+
+    width: 250px;
+
+    background-color: rgba(15, 15, 55, 0.7);
+    border-radius: 15px;
+}
+
+
+
+
+
+
+.icones-contato {
+    display: grid;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.icones-contato a {
+    color: white;
+    font-size: 45px;
+    text-decoration: none;
+
+    transition: 0.3s;
+}
+
+.icones-contato a:hover {
+    transform: translateY(-5px);
+}
+
+
+
+
+
+
+
+.formulario-contato {
+    margin-top: 40px;
+    width: 500px;
+}
+
+.formulario-contato h2 {
+    color: white;
+    font-family: "Science Gothic", sans-serif;
+    margin-bottom: 20px;
+}
+
+.formulario-contato form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.formulario-contato input,
+.formulario-contato textarea {
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    font-family: "Science Gothic", sans-serif;
+    font-size: 16px;
+    outline: none;
+}
+
+.formulario-contato textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.formulario-contato button {
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(15, 15, 55);
+    color: white;
+    font-family: "Science Gothic", sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.formulario-contato button:hover {
+    background-color: rgb(25, 25, 80);
+}
