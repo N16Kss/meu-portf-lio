@@ -9,6 +9,7 @@ Esse projeto consiste no meu portfólio, contendo minhas experiências, projetos
 - HTML
 - CSS
 - JavaScript
+- emailJS
 
 ##  Wireframes(Média Fidelidade)
 
