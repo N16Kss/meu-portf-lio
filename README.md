@@ -51,8 +51,8 @@ meuPortfolio/
 # RF05 Pessoa da comunidade acadêmica Envia mensagem para email, na aba contatos
 * A Pessoa da comunidade acadêmica, após ver meus projetos, envia uma mensagem para mim ao meu email
  
-#Caso de Uso Diagrama
+# Caso de Uso Diagrama
 <img width="496" height="571" alt="User-case portfólio drawio" src="https://github.com/user-attachments/assets/8167f667-2882-4fb3-91ae-ee48f744a51f" />
 
-#Site Hospedado
+# Site Hospedado
  https://n16kss.github.io/meu-portf-lio/
