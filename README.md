@@ -9,7 +9,7 @@ Esse projeto consiste no meu portfólio, contendo minhas experiências, projetos
 - HTML
 - CSS
 - JavaScript
-- emailJS
+- EmailJS
 
 ##  Wireframes(Média Fidelidade)
 
@@ -35,3 +35,21 @@ meuPortfolio/
 │   └── portfolio.js
 ├── portfolio.html
 └── README.md
+
+
+## Requisitos
+
+```
+# RF01 Visitante vizualiza página sobre mim
+* O visitante, procurando entender quem eu sou, entra no site e verifica meus detalhes, e o que procuro
+# RF02 Pessoa da comunidade academica vizualiza, projetos acadêmios
+* A comunidade acadêmica, entrando no meu portfólio com o interesse, em ver meus projetos, os acessa, diretamente e imediatamente
+# RF03 Recrutador Vizualiza minhas experiências em destaque
+* O recrutador, interessado, verifica minhas experiências quanto trabalhos, tanto dentro quanto fora da area
+# RF04 Recrutador Envia Mensagem, para mim pela aba de contatos
+* O recrutador, após se interessar no meu portfólio decide  enviar uma mensagem para o meu email
+# RF05 Pessoa da comunidade acadêmica Envia mensagem para email, na aba contatos
+* A Pessoa da comunidade acadêmica, após ver meus projetos, envia uma mensagem para mim ao meu email
+ 
+
+

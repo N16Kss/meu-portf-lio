@@ -83,17 +83,17 @@ main {
     border: 3px solid rgba(0, 212, 255, 0.8);
 
     box-shadow: 0 0 40px rgba(0, 212, 255, 0.5);
+    background-image:url(../imagem-minha.jpg) ;
+    
 }
 
 
 
-
-
-
-
-
-
-
+.item-vizualizavel a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
 
 
 .pagina {
@@ -203,4 +203,81 @@ main {
 
 .formulario-contato button:hover {
     background-color: rgb(25, 25, 80);
+}
+
+
+
+.selecao {
+    min-height: calc(100vh - 65px);
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-family: "Science Gothic", sans-serif;
+    text-align: center;
+}
+
+.selecao h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.selecao p {
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+
+.opcoes {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.opcao {
+    width: 250px;
+    min-height: 220px;
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+    border: 1px solid rgba(0, 212, 255, 0.4);
+    border-radius: 20px;
+
+    background: rgba(15, 15, 55, 0.7);
+    color: white;
+
+    font-family: "Science Gothic", sans-serif;
+    cursor: pointer;
+
+    transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+}
+
+.opcao:hover {
+    transform: translateY(-10px);
+    border-color: #00d4ff;
+    box-shadow: 0 10px 30px rgba(0, 212, 255, 0.3);
+}
+
+.opcao i {
+    font-size: 50px;
+}
+
+.opcao span {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.opcao small {
+    font-size: 15px;
+    opacity: 0.7;
 }

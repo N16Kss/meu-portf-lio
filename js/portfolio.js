@@ -1,17 +1,16 @@
 const conteudo = document.getElementById("conteudo");
-
 const btnSobre = document.getElementById("btn-sobre");
 const btnProjetos = document.getElementById("btn-projetos");
 const btnExperiencias = document.getElementById("btn-experiencias");
 const btnContato = document.getElementById("btn-contato");
-
+const menuNavegacao = document.getElementById("menu-navegacao");
 
 emailjs.init({
     publicKey: "q1qk1MWNsuNka7HTy"
 });
 
 
-function mostrarInicio() {
+function mostrarInicio(perfil) {
 
     conteudo.innerHTML = `
         <div class="apresentacao">
@@ -53,6 +52,9 @@ btnProjetos.addEventListener("click", function () {
             <p>
                 Aqui estão alguns dos meus projetos.
             </p>
+                <p class="item-vizualizavel"> <a href="https://github.com/N16Kss/Trabalho-de-SO"> Sistema do Banqueiro</a></p> 
+                <p class="item-vizualizavel"> <a href="https://github.com/N16Kss/Segundo-trabalho-SO"> Trabalho sobre Paginação</a></p> 
+
 
         </div>
     `;
@@ -68,8 +70,7 @@ btnExperiencias.addEventListener("click", function () {
             <h1>Experiências</h1>
 
             <p>
-                Aqui você pode colocar suas experiências
-                profissionais e acadêmicas.
+               Ainda estou em busca de experiências
             </p>
 
         </div>
@@ -92,7 +93,7 @@ btnContato.addEventListener("click", function () {
             <div class="icones-contato">
 
                 <a
-                    href="https://github.com/seuusuario"
+                    href="https://github.com/n16kss"
                     target="_blank"
                 >
                     <i class="fa-brands fa-github"></i>
@@ -192,4 +193,73 @@ btnContato.addEventListener("click", function () {
 });
 
 
+
+
+
+function mostrarSelecao() {
+
+     menuNavegacao.style.display = "none";
+
+    conteudo.innerHTML = `
+        <div class="selecao">
+
+            <h1>Bem-vindo ao meu portfólio</h1>
+
+            <p>O que você procura?</p>
+
+            <div class="opcoes">
+
+                <button id="opcao-recrutador" class="opcao">
+                    <i class="fa-solid fa-briefcase"></i>
+                    Recrutador
+                </button>
+
+                <button id="opcao-visitante" class="opcao">
+                    <i class="fa-solid fa-user"></i>
+                    Visitante
+                </button>
+
+                <button id="opcao-academico" class="opcao">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    Comunidade Acadêmica
+                </button>
+
+            </div>
+
+        </div>
+    `;
+
+    document.getElementById("opcao-recrutador")
+        .addEventListener("click", function() {
+            menuNavegacao.style.display = "block";
+            btnExperiencias.click();
+        });
+
+    document.getElementById("opcao-visitante")
+        .addEventListener("click", function() {
+            menuNavegacao.style.display = "block";
+            btnSobre.click();
+        });
+
+    document.getElementById("opcao-academico")
+        .addEventListener("click", function() {
+            menuNavegacao.style.display = "block";
+            btnProjetos.click();
+        });
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 mostrarInicio();
+mostrarSelecao();
